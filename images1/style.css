@@ -1,2 +1,75 @@
-git config --global user.name"yashashwini reddy m s"
-email" yashasmnr@gmail.com"
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+   .clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+   }
+   body{
+    font-family: 'Lucida Sans Unicode';
+    font-size: 18px;
+   }
+   h1, h2{
+    color: rgb(25, 114, 114);
+   }
+   h1{
+    font-size: 50px; 
+    margin-bottom: 20px; 
+   }
+   h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+   }
+   .main-text{
+    text-align: justify;
+
+    margin-bottom: 20px;
+}
+.author-text{
+ font-size: 22px;
+ float: left; 
+ margin-top: 30px;
+ margin-left: 10px;
+}
+.container{
+ width: 1140px;
+ margin: 20px auto 0 auto;
+}
+.blog-post{
+ width: 75%;
+ float: left;
+ padding-right: 30px;
+ position: relative;
+}
+.other-post{
+ width: 25%;
+ float: left;
+}
+.author-box{
+ padding-top: 20px;
+ border-top: 1px solid #333;
+}
+.other{
+ margin-bottom: 40px;
+
+}
+.author-box img{
+ height: 100px;
+ width: 100px;
+ border-radius: 50%;
+ float: left;
+}
+.blog-post img{
+ height: 150px;
+ width: auto;
+}
+.date{
+ position: absolute;
+ top: 5px;
+ right: 30px;
+ color: rgb(25, 114, 114);
+}
+
